@@ -1,12 +1,15 @@
 {
   "name": "vue-model-on",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Allows you to set the event type when binding model data in Vue.js",
-  "main": "index.js",
-  "dependencies": {},
+  "main": "src/vue-model-on.js",
+  "dependencies": {
+    "vue": "^2.1.8"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-uglify": "^2.0.0",
+    "gulp-umd": "^0.2.0",
     "pump": "^1.0.2"
   },
   "scripts": {
@@ -20,6 +23,11 @@
     "vue.js",
     "directives",
     "v-model"
+  ],
+  "files": [
+    "umd",
+    "src",
+    "dist"
   ],
   "author": "Craig Humphreys",
   "license": "MIT",
