@@ -1,4 +1,4 @@
-# vue-model-on for Vue 2.0
+# vue-model-on for Vue 2.x
 
 By default Vue's `v-model` uses the `input` event to update the underlying model data, `vue-model-on` is a simple directive that allows you to set the event type for updating model data in Vue.js. Simply use `v-model-on:event="myVar"` instead of `v-model="myVar"`
 
