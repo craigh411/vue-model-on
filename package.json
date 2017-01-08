@@ -1,0 +1,30 @@
+{
+  "name": "vue-model-on",
+  "version": "1.0.0",
+  "description": "Allows you to set the event type when binding model data in Vue.js",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^2.0.0",
+    "pump": "^1.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craigh411/vue-model-on.git"
+  },
+  "keywords": [
+    "vue.js",
+    "directives",
+    "v-model"
+  ],
+  "author": "Craig Humphreys",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/craigh411/vue-model-on/issues"
+  },
+  "homepage": "https://github.com/craigh411/vue-model-on#readme"
+}
