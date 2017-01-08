@@ -1,10 +1,28 @@
-# vue-model-on
+# vue-model-on for Vue 2.x
 
-Allows you to set the event type for the vue.js `v-model` directive.
+By default Vue's `v-model` uses the `input` event to update the underlying model data, `vue-model-on` is a simple directive that allows you to set the event type for updating model data in Vue.js. Simply use `v-model-on:event="myVar"` instead of `v-model="myVar"`
+
+## Install
+
+Install via `npm`:
+
+`npm install vue-model-on --save-dev`
+
+Then simply use `require`:
+
+`require('vue-model-on')`
+
+or import for `ES6` syntax:
+
+`import "vue-model-on"`
+
+Also available via CDN on unpkg, simply add the following to your page:
+
+`<script src="https://unpkg.com/vue-model-on@1.0.0" ></script>`
 
 ## Example
 
-The following will update myVar on blur event, although you may use any javascript event you want to:
+The following will update `myVar` on `blur` event, although you may use any javascript event you want to:
 
 **HTML**
 
@@ -21,6 +39,8 @@ new Vue({
   }
 });
 ```
+
+[Check it out on JSFiddle](https://jsfiddle.net/b20jk7po/)
 
 
 
