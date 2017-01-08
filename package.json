@@ -1,6 +1,6 @@
 {
   "name": "vue-model-on",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Allows you to set the event type when binding model data in Vue.js",
   "main": "src/vue-model-on.js",
   "dependencies": {
