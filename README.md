@@ -18,7 +18,7 @@ or import for `ES6` syntax:
 
 Also available via CDN on unpkg, simply add the following to your page:
 
-`<script src="https://unpkg.com/vue-model-on@1.0.0" ></script>`
+`<script src="https://unpkg.com/vue-model-on@1.0.2/dist/vue-model-on.js" ></script>`
 
 ## Example
 
