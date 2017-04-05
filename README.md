@@ -18,7 +18,7 @@ or import for `ES6` syntax:
 
 Also available via CDN on unpkg, simply add the following to your page:
 
-`<script src="https://unpkg.com/vue-model-on@1.0.2/dist/vue-model-on.js" ></script>`
+`<script src="https://unpkg.com/vue-model-on@latest/dist/vue-model-on.js" ></script>`
 
 ## Example
 
@@ -40,7 +40,7 @@ new Vue({
 });
 ```
 
-[Check it out on JSFiddle](https://jsfiddle.net/b20jk7po/)
+[Check it out on JSFiddle](https://jsfiddle.net/craig_h_411/6Lmb1h9s/)
 
 
 
