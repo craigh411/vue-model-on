@@ -6,7 +6,7 @@ By default Vue's `v-model` uses the `input` event to update the underlying model
 
 Install via `npm`:
 
-`npm install vue-model-on --save-dev`
+`npm install vue-model-on`
 
 Then simply use `require`:
 
