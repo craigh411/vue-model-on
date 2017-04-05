@@ -1,1 +1,1 @@
-Vue.directive("model-on",{bind:function(e,n,i){e.addEventListener(n.arg,function(){i.context[n.expression]=e.value})}});
+Vue.directive("model-on",{bind:function(e,n,t){e.value=t.context[n.expression],e.addEventListener(n.arg,function(){t.context[n.expression]=e.value})},update:function(e,n,t){e.value=t.context[n.expression]}});
